@@ -1,6 +1,8 @@
 #!/bin/bash
-FILES=/home/shaohua/Workspace/caffe/avoid_outdoor/data/set10_right/*
-OUTPUT=/home/shaohua/Workspace/caffe/avoid_outdoor/data/set10_right.txt
+
+# edit these to line to specific paths
+FILES= "..."
+OUTPUT= "..."
 
 for file in $FILES
 do
