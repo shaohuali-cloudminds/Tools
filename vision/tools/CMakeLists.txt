@@ -25,3 +25,15 @@ target_link_libraries(record_fisheye_dist_images ${OpenCV_LIBS})
 
 add_executable(record_fisheye_undist_images ${SRC} src/record_fisheye_undist_images.cpp)
 target_link_libraries(record_fisheye_undist_images ${OpenCV_LIBS})
+
+add_executable(select_fisheye_dist_images ${SRC} src/select_fisheye_dist_images.cpp)
+target_link_libraries(select_fisheye_dist_images ${OpenCV_LIBS})
+
+add_executable(select_fisheye_undist_images ${SRC} src/select_fisheye_undist_images.cpp)
+target_link_libraries(select_fisheye_undist_images ${OpenCV_LIBS})
+
+add_executable(record_fisheye_dist_video ${SRC} src/record_fisheye_dist_video.cpp)
+target_link_libraries(record_fisheye_dist_video ${OpenCV_LIBS})
+
+add_executable(record_fisheye_undist_video ${SRC} src/record_fisheye_undist_video.cpp)
+target_link_libraries(record_fisheye_undist_video ${OpenCV_LIBS})
