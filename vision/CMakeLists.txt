@@ -11,4 +11,3 @@ ${PROJECT_SOURCE_DIR}/src/fisheye.cpp
 ${PROJECT_SOURCE_DIR}/src/camera.cpp)
 
 add_subdirectory(${PROJECT_SOURCE_DIR}/tools)
-add_subdirectory(${PROJECT_SOURCE_DIR}/tests)
